@@ -4,6 +4,7 @@ from Cython.Build import cythonize
 
 extensions = [
     Extension("knn_cy", ["knn_cy.pyx"], include_dirs=[numpy.get_include()]),
+    Extension("knn_cy_opt", ["knn_cy_opt.pyx"], include_dirs=[numpy.get_include()]),
 ]
 
 setup(
