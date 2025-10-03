@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "compute_cy",
+        "name": "example_np_cy.compute_cy",
         "sources": [
             "compute_cy.pyx"
         ]
     },
-    "module_name": "compute_cy"
+    "module_name": "example_np_cy.compute_cy"
 }
 END: Cython Metadata */
 
@@ -1228,8 +1228,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__compute_cy
-#define __PYX_HAVE_API__compute_cy
+#define __PYX_HAVE__example_np_cy__compute_cy
+#define __PYX_HAVE_API__example_np_cy__compute_cy
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -2120,15 +2120,15 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "compute_cy" */
-static int __pyx_f_10compute_cy_clip(int, int, int); /*proto*/
+/* Module declarations from "example_np_cy.compute_cy" */
+static int __pyx_f_13example_np_cy_10compute_cy_clip(int, int, int); /*proto*/
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "compute_cy"
-extern int __pyx_module_is_main_compute_cy;
-int __pyx_module_is_main_compute_cy = 0;
+#define __Pyx_MODULE_NAME "example_np_cy.compute_cy"
+extern int __pyx_module_is_main_example_np_cy__compute_cy;
+int __pyx_module_is_main_example_np_cy__compute_cy = 0;
 
-/* Implementation of "compute_cy" */
+/* Implementation of "example_np_cy.compute_cy" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_AssertionError;
 static PyObject *__pyx_builtin_range;
@@ -2160,7 +2160,6 @@ static const char __pyx_k_result[] = "result";
 static const char __pyx_k_array_1[] = "array_1";
 static const char __pyx_k_array_2[] = "array_2";
 static const char __pyx_k_compute[] = "compute";
-static const char __pyx_k_compute_cy[] = "compute_cy";
 static const char __pyx_k_initializing[] = "_initializing";
 static const char __pyx_k_is_coroutine[] = "_is_coroutine";
 static const char __pyx_k_class_getitem[] = "__class_getitem__";
@@ -2168,8 +2167,9 @@ static const char __pyx_k_AssertionError[] = "AssertionError";
 static const char __pyx_k_compute_cy_pyx[] = "compute_cy.pyx";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
+static const char __pyx_k_example_np_cy_compute_cy[] = "example_np_cy.compute_cy";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_array_1, PyObject *__pyx_v_array_2, int __pyx_v_a, int __pyx_v_b, int __pyx_v_c); /* proto */
+static PyObject *__pyx_pf_13example_np_cy_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_array_1, PyObject *__pyx_v_array_2, int __pyx_v_a, int __pyx_v_b, int __pyx_v_c); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 typedef struct {
@@ -2212,9 +2212,9 @@ typedef struct {
   PyObject *__pyx_n_s_class_getitem;
   PyObject *__pyx_n_s_cline_in_traceback;
   PyObject *__pyx_n_s_compute;
-  PyObject *__pyx_n_s_compute_cy;
   PyObject *__pyx_kp_s_compute_cy_pyx;
   PyObject *__pyx_n_s_dtype;
+  PyObject *__pyx_n_s_example_np_cy_compute_cy;
   PyObject *__pyx_n_s_import;
   PyObject *__pyx_n_s_initializing;
   PyObject *__pyx_n_s_intc;
@@ -2291,9 +2291,9 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_class_getitem);
   Py_CLEAR(clear_module_state->__pyx_n_s_cline_in_traceback);
   Py_CLEAR(clear_module_state->__pyx_n_s_compute);
-  Py_CLEAR(clear_module_state->__pyx_n_s_compute_cy);
   Py_CLEAR(clear_module_state->__pyx_kp_s_compute_cy_pyx);
   Py_CLEAR(clear_module_state->__pyx_n_s_dtype);
+  Py_CLEAR(clear_module_state->__pyx_n_s_example_np_cy_compute_cy);
   Py_CLEAR(clear_module_state->__pyx_n_s_import);
   Py_CLEAR(clear_module_state->__pyx_n_s_initializing);
   Py_CLEAR(clear_module_state->__pyx_n_s_intc);
@@ -2348,9 +2348,9 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_class_getitem);
   Py_VISIT(traverse_module_state->__pyx_n_s_cline_in_traceback);
   Py_VISIT(traverse_module_state->__pyx_n_s_compute);
-  Py_VISIT(traverse_module_state->__pyx_n_s_compute_cy);
   Py_VISIT(traverse_module_state->__pyx_kp_s_compute_cy_pyx);
   Py_VISIT(traverse_module_state->__pyx_n_s_dtype);
+  Py_VISIT(traverse_module_state->__pyx_n_s_example_np_cy_compute_cy);
   Py_VISIT(traverse_module_state->__pyx_n_s_import);
   Py_VISIT(traverse_module_state->__pyx_n_s_initializing);
   Py_VISIT(traverse_module_state->__pyx_n_s_intc);
@@ -2415,9 +2415,9 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_class_getitem __pyx_mstate_global->__pyx_n_s_class_getitem
 #define __pyx_n_s_cline_in_traceback __pyx_mstate_global->__pyx_n_s_cline_in_traceback
 #define __pyx_n_s_compute __pyx_mstate_global->__pyx_n_s_compute
-#define __pyx_n_s_compute_cy __pyx_mstate_global->__pyx_n_s_compute_cy
 #define __pyx_kp_s_compute_cy_pyx __pyx_mstate_global->__pyx_kp_s_compute_cy_pyx
 #define __pyx_n_s_dtype __pyx_mstate_global->__pyx_n_s_dtype
+#define __pyx_n_s_example_np_cy_compute_cy __pyx_mstate_global->__pyx_n_s_example_np_cy_compute_cy
 #define __pyx_n_s_import __pyx_mstate_global->__pyx_n_s_import
 #define __pyx_n_s_initializing __pyx_mstate_global->__pyx_n_s_initializing
 #define __pyx_n_s_intc __pyx_mstate_global->__pyx_n_s_intc
@@ -2441,7 +2441,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__3 __pyx_mstate_global->__pyx_codeobj__3
 /* #### Code section: module_code ### */
 
-/* "compute_cy.pyx":10
+/* "example_np_cy/compute_cy.pyx":10
  * # cdef means here that this function is a plain C function (so faster).
  * # To get all the benefits, we type the arguments and the return value.
  * cdef int clip(int a, int min_value, int max_value):             # <<<<<<<<<<<<<<
@@ -2449,7 +2449,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  * 
  */
 
-static int __pyx_f_10compute_cy_clip(int __pyx_v_a, int __pyx_v_min_value, int __pyx_v_max_value) {
+static int __pyx_f_13example_np_cy_10compute_cy_clip(int __pyx_v_a, int __pyx_v_min_value, int __pyx_v_max_value) {
   int __pyx_r;
   int __pyx_t_1;
   int __pyx_t_2;
@@ -2457,7 +2457,7 @@ static int __pyx_f_10compute_cy_clip(int __pyx_v_a, int __pyx_v_min_value, int _
   int __pyx_t_4;
   int __pyx_t_5;
 
-  /* "compute_cy.pyx":11
+  /* "example_np_cy/compute_cy.pyx":11
  * # To get all the benefits, we type the arguments and the return value.
  * cdef int clip(int a, int min_value, int max_value):
  *     return min(max(a, min_value), max_value)             # <<<<<<<<<<<<<<
@@ -2483,7 +2483,7 @@ static int __pyx_f_10compute_cy_clip(int __pyx_v_a, int __pyx_v_min_value, int _
   __pyx_r = __pyx_t_4;
   goto __pyx_L0;
 
-  /* "compute_cy.pyx":10
+  /* "example_np_cy/compute_cy.pyx":10
  * # cdef means here that this function is a plain C function (so faster).
  * # To get all the benefits, we type the arguments and the return value.
  * cdef int clip(int a, int min_value, int max_value):             # <<<<<<<<<<<<<<
@@ -2496,7 +2496,7 @@ static int __pyx_f_10compute_cy_clip(int __pyx_v_a, int __pyx_v_min_value, int _
   return __pyx_r;
 }
 
-/* "compute_cy.pyx":14
+/* "example_np_cy/compute_cy.pyx":14
  * 
  * 
  * def compute(array_1, array_2, int a, int b, int c):             # <<<<<<<<<<<<<<
@@ -2505,15 +2505,15 @@ static int __pyx_f_10compute_cy_clip(int __pyx_v_a, int __pyx_v_min_value, int _
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10compute_cy_1compute(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_13example_np_cy_10compute_cy_1compute(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_10compute_cy_1compute = {"compute", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10compute_cy_1compute, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10compute_cy_1compute(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_13example_np_cy_10compute_cy_1compute = {"compute", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_13example_np_cy_10compute_cy_1compute, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_13example_np_cy_10compute_cy_1compute(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2643,11 +2643,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("compute_cy.compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("example_np_cy.compute_cy.compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10compute_cy_compute(__pyx_self, __pyx_v_array_1, __pyx_v_array_2, __pyx_v_a, __pyx_v_b, __pyx_v_c);
+  __pyx_r = __pyx_pf_13example_np_cy_10compute_cy_compute(__pyx_self, __pyx_v_array_1, __pyx_v_array_2, __pyx_v_a, __pyx_v_b, __pyx_v_c);
 
   /* function exit code */
   {
@@ -2660,7 +2660,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_array_1, PyObject *__pyx_v_array_2, int __pyx_v_a, int __pyx_v_b, int __pyx_v_c) {
+static PyObject *__pyx_pf_13example_np_cy_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_array_1, PyObject *__pyx_v_array_2, int __pyx_v_a, int __pyx_v_b, int __pyx_v_c) {
   Py_ssize_t __pyx_v_x_max;
   Py_ssize_t __pyx_v_y_max;
   PyObject *__pyx_v_result = NULL;
@@ -2687,7 +2687,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("compute", 1);
 
-  /* "compute_cy.pyx":20
+  /* "example_np_cy/compute_cy.pyx":20
  *     # problems with allowing them in other places, though we'd love to see
  *     # good and thought out proposals for it).
  *     cdef Py_ssize_t x_max = array_1.shape[0]             # <<<<<<<<<<<<<<
@@ -2703,7 +2703,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_x_max = __pyx_t_3;
 
-  /* "compute_cy.pyx":21
+  /* "example_np_cy/compute_cy.pyx":21
  *     # good and thought out proposals for it).
  *     cdef Py_ssize_t x_max = array_1.shape[0]
  *     cdef Py_ssize_t y_max = array_1.shape[1]             # <<<<<<<<<<<<<<
@@ -2719,7 +2719,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_y_max = __pyx_t_3;
 
-  /* "compute_cy.pyx":23
+  /* "example_np_cy/compute_cy.pyx":23
  *     cdef Py_ssize_t y_max = array_1.shape[1]
  * 
  *     assert array_1.shape == array_2.shape             # <<<<<<<<<<<<<<
@@ -2746,7 +2746,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   if ((1)); else __PYX_ERR(0, 23, __pyx_L1_error)
   #endif
 
-  /* "compute_cy.pyx":24
+  /* "example_np_cy/compute_cy.pyx":24
  * 
  *     assert array_1.shape == array_2.shape
  *     assert array_1.dtype == DTYPE             # <<<<<<<<<<<<<<
@@ -2773,7 +2773,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   if ((1)); else __PYX_ERR(0, 24, __pyx_L1_error)
   #endif
 
-  /* "compute_cy.pyx":25
+  /* "example_np_cy/compute_cy.pyx":25
  *     assert array_1.shape == array_2.shape
  *     assert array_1.dtype == DTYPE
  *     assert array_2.dtype == DTYPE             # <<<<<<<<<<<<<<
@@ -2800,7 +2800,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   if ((1)); else __PYX_ERR(0, 25, __pyx_L1_error)
   #endif
 
-  /* "compute_cy.pyx":27
+  /* "example_np_cy/compute_cy.pyx":27
  *     assert array_2.dtype == DTYPE
  * 
  *     result = np.zeros((x_max, y_max), dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -2843,7 +2843,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_v_result = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "compute_cy.pyx":43
+  /* "example_np_cy/compute_cy.pyx":43
  *     cdef Py_ssize_t x, y
  * 
  *     for x in range(x_max):             # <<<<<<<<<<<<<<
@@ -2855,7 +2855,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_x = __pyx_t_8;
 
-    /* "compute_cy.pyx":44
+    /* "example_np_cy/compute_cy.pyx":44
  * 
  *     for x in range(x_max):
  *         for y in range(y_max):             # <<<<<<<<<<<<<<
@@ -2867,7 +2867,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
     for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
       __pyx_v_y = __pyx_t_11;
 
-      /* "compute_cy.pyx":46
+      /* "example_np_cy/compute_cy.pyx":46
  *         for y in range(y_max):
  * 
  *             tmp = clip(array_1[x, y], 2, 10)             # <<<<<<<<<<<<<<
@@ -2891,10 +2891,10 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_12 = __Pyx_PyInt_As_int(__pyx_t_6); if (unlikely((__pyx_t_12 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_13 = __pyx_f_10compute_cy_clip(__pyx_t_12, 2, 10); if (unlikely(__pyx_t_13 == ((int)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L1_error)
+      __pyx_t_13 = __pyx_f_13example_np_cy_10compute_cy_clip(__pyx_t_12, 2, 10); if (unlikely(__pyx_t_13 == ((int)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L1_error)
       __pyx_v_tmp = __pyx_t_13;
 
-      /* "compute_cy.pyx":47
+      /* "example_np_cy/compute_cy.pyx":47
  * 
  *             tmp = clip(array_1[x, y], 2, 10)
  *             tmp = tmp * a + array_2[x, y] * b             # <<<<<<<<<<<<<<
@@ -2932,7 +2932,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_v_tmp = __pyx_t_13;
 
-      /* "compute_cy.pyx":48
+      /* "example_np_cy/compute_cy.pyx":48
  *             tmp = clip(array_1[x, y], 2, 10)
  *             tmp = tmp * a + array_2[x, y] * b
  *             result[x, y] = tmp + c             # <<<<<<<<<<<<<<
@@ -2959,7 +2959,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
     }
   }
 
-  /* "compute_cy.pyx":50
+  /* "example_np_cy/compute_cy.pyx":50
  *             result[x, y] = tmp + c
  * 
  *     return result             # <<<<<<<<<<<<<<
@@ -2969,7 +2969,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = __pyx_v_result;
   goto __pyx_L0;
 
-  /* "compute_cy.pyx":14
+  /* "example_np_cy/compute_cy.pyx":14
  * 
  * 
  * def compute(array_1, array_2, int a, int b, int c):             # <<<<<<<<<<<<<<
@@ -2983,7 +2983,7 @@ static PyObject *__pyx_pf_10compute_cy_compute(CYTHON_UNUSED PyObject *__pyx_sel
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("compute_cy.compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("example_np_cy.compute_cy.compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_result);
@@ -3021,9 +3021,9 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_class_getitem, __pyx_k_class_getitem, sizeof(__pyx_k_class_getitem), 0, 0, 1, 1},
     {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
     {&__pyx_n_s_compute, __pyx_k_compute, sizeof(__pyx_k_compute), 0, 0, 1, 1},
-    {&__pyx_n_s_compute_cy, __pyx_k_compute_cy, sizeof(__pyx_k_compute_cy), 0, 0, 1, 1},
     {&__pyx_kp_s_compute_cy_pyx, __pyx_k_compute_cy_pyx, sizeof(__pyx_k_compute_cy_pyx), 0, 0, 1, 0},
     {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
+    {&__pyx_n_s_example_np_cy_compute_cy, __pyx_k_example_np_cy_compute_cy, sizeof(__pyx_k_example_np_cy_compute_cy), 0, 0, 1, 1},
     {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
     {&__pyx_n_s_initializing, __pyx_k_initializing, sizeof(__pyx_k_initializing), 0, 0, 1, 1},
     {&__pyx_n_s_intc, __pyx_k_intc, sizeof(__pyx_k_intc), 0, 0, 1, 1},
@@ -3061,7 +3061,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "compute_cy.pyx":14
+  /* "example_np_cy/compute_cy.pyx":14
  * 
  * 
  * def compute(array_1, array_2, int a, int b, int c):             # <<<<<<<<<<<<<<
@@ -3415,14 +3415,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_compute_cy) {
+  if (__pyx_module_is_main_example_np_cy__compute_cy) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "compute_cy")) {
-      if (unlikely((PyDict_SetItemString(modules, "compute_cy", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "example_np_cy.compute_cy")) {
+      if (unlikely((PyDict_SetItemString(modules, "example_np_cy.compute_cy", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -3443,7 +3443,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "compute_cy.pyx":1
+  /* "example_np_cy/compute_cy.pyx":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
  * # We now need to fix a datatype for our arrays. I've used the variable
@@ -3453,7 +3453,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "compute_cy.pyx":6
+  /* "example_np_cy/compute_cy.pyx":6
  * # DTYPE for this, which is assigned to the usual NumPy runtime
  * # type info object.
  * DTYPE = np.intc             # <<<<<<<<<<<<<<
@@ -3468,19 +3468,19 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_DTYPE, __pyx_t_3) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "compute_cy.pyx":14
+  /* "example_np_cy/compute_cy.pyx":14
  * 
  * 
  * def compute(array_1, array_2, int a, int b, int c):             # <<<<<<<<<<<<<<
  * 
  *     # The "cdef" keyword is also used within functions to type variables. It
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10compute_cy_1compute, 0, __pyx_n_s_compute, NULL, __pyx_n_s_compute_cy, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_13example_np_cy_10compute_cy_1compute, 0, __pyx_n_s_compute, NULL, __pyx_n_s_example_np_cy_compute_cy, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_compute, __pyx_t_3) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "compute_cy.pyx":1
+  /* "example_np_cy/compute_cy.pyx":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
  * # We now need to fix a datatype for our arrays. I've used the variable
@@ -3498,7 +3498,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init compute_cy", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init example_np_cy.compute_cy", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -3512,7 +3512,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init compute_cy");
+    PyErr_SetString(PyExc_ImportError, "init example_np_cy.compute_cy");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

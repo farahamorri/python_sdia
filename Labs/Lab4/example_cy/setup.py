@@ -7,6 +7,6 @@ os.environ["CC"] = "gcc"
 
 setup(
     ext_modules=cythonize(
-        ["example_cy/helloworld.pyx", "example_cy/primes.pyx"], annotate=True, language_level="3"
+        ["helloworld.pyx", "primes.pyx"], annotate=True, language_level="3"
     ),
 )
