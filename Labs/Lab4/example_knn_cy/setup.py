@@ -11,3 +11,7 @@ setup(
     name="knn_cy",
     ext_modules=cythonize(extensions, annotate=True, language_level="3"),
 )
+setup(
+    name="knn_cy_opt",
+    ext_modules=cythonize(extensions, annotate=True, language_level="3"),
+)
